@@ -249,10 +249,10 @@ resource customScriptExtension 'Microsoft.Compute/virtualMachines/extensions@202
       ]
       commandToExecute: './install-tools.sh'
     }
-    protectedSettings: {
-      storageAccountName: 'csb100320027d3acaf2'
-      storageAccountKey: 'lxHdDKnL6BvU2bdx1dwS9tuqmCTDLXIK+f22AtF8uKw7EhMNZdNlF3N0fdEUw/HascGb5hfMtPGb+AStI1tQ0Q=='
-    }
+    // protectedSettings: {
+    //   storageAccountName: 'csb100320027d3acaf2'
+    //   storageAccountKey: 'lxHdDKnL6BvU2bdx1dwS9tuqmCTDLXIK+f22AtF8uKw7EhMNZdNlF3N0fdEUw/HascGb5hfMtPGb+AStI1tQ0Q=='
+    // }
   }
 }
 
