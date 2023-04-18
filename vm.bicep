@@ -245,7 +245,7 @@ resource customScriptExtension 'Microsoft.Compute/virtualMachines/extensions@202
     autoUpgradeMinorVersion: true
     settings: {
       fileUris: [
-        'https://raw.githubusercontent.com/<username>/<repo>/<branch>/install-tools.sh'
+        'https://github.com/osamadgfloat/biceps-ubuntu/blob/main/install-tools.sh'
       ]
       commandToExecute: './install-tools.sh'
     }
