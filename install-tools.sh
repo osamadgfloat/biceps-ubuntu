@@ -1,2 +1,4 @@
-curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
+
+# Azure Cli-Intallation
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
